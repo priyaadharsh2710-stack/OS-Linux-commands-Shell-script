@@ -673,6 +673,7 @@ $ chmod 755 iftest.sh
 $ ./iftest.sh 
 ##OUTPUT
 
+
 # check if a file
 cat > ifnested.sh 
 ```bash
