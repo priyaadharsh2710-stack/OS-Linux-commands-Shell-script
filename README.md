@@ -435,10 +435,11 @@ gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ ![Alt text](<Screenshot at 2026-09-01 05-41-06.png>)
+
 gunzip backup.tar.gz
 ## OUTPUT
-![Uploading image.png…]()
+![Alt text](image.png)
 
  
 # Shell Script
@@ -449,7 +450,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-
+![Alt text](image-1.png)
  
 cat << stop > herecheck.txt
 ```
@@ -461,7 +462,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
+![Alt text](image-2.png)
 
 cat < scriptest.sh 
 ```bash
@@ -499,13 +500,14 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-
+![Alt text](image-3.png)
  
 ls file1
 ## OUTPUT
-
+![Alt text](image-5.png)
 echo $?
 ## OUTPUT 
+![Alt text](image-6.png)
 ./one
 bash: ./one: Permission denied
  
